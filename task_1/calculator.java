@@ -24,6 +24,7 @@ public class calculator {
             System.out.print("Введите действие (+, -, *, /): ");
 
             String sign = in.next();
+
             // char sign = (char) x;
 
             // String sign = String.valueOf(in.read());
@@ -48,6 +49,8 @@ public class calculator {
 
             System.out.println("Если хотите выполнить вычилсение нажмите любую клавишу, если хотите выйти - введите 'br'");
             String  action= in.next();
+            in.close();
+
 
             if(action.equals("br")){
                 runner = false;
